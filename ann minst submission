@@ -52,7 +52,7 @@ print(predictions)
 import numpy as np
 print(np.argmax(predictions[0]))
 
-plt.imshow(x_test[0],cmap=plt.cm.binary)
+plt.imshow(x_test[0],cmap=plt.cm.binary)#shows a test sample which is recognised as 7
 plt.show()
 
 
