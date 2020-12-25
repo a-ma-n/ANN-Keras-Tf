@@ -15,7 +15,6 @@ model.add(tf.keras.layers.Flatten())#flatten our input =>28x28 to 1x784
 #creating layers of aneural network
 #Dense:every node connected
 #relu= rectified linear =>activation function
-#relu= rectified linear =>activation function
 #Loss is a calculation of error. A neural network  attempts to minimize loss.
 
 model.add(tf.keras.layers.Dense(128, activation=tf.nn.relu))
@@ -37,8 +36,8 @@ model.save('Ann_mnist_keras,tensorflow.model')#saving our model
 
 new_model = tf.keras.models.load_model('Ann_mnist_keras,tensorflow.model')#loading our model
 predictions=new_model.predict(x_test)
-#print(predictions)making predictions
-print('\nThe Number is:\n',np.argmax(predictions[0]))
+
+print('\nThe Number is:\n',np.argmax(predictions[0]))#predicts the number
 plt.title("Test number is:")
 plt.axis('off')
 
