@@ -1,4 +1,4 @@
-## Ann_Keras-Tf
+## ANN using Keras and Tensorfllow 
 
 An Artificial Neural Network built using Keras and Tensorflow.
 Used the MNIST dataset for training and predictions.
