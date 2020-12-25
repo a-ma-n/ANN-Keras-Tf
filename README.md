@@ -1,2 +1,5 @@
-# Ann_Keras-Tf
-Artificial neural network built using Keras an Tensorflow.Used MNIST dataset for input/training and predictions. 
+## Ann_Keras-Tf
+
+An Artificial Neural Network built using Keras and Tensorflow.
+Used the MNIST dataset for training and predictions.
+Recognised number: '7' with the given test dataset.
