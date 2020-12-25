@@ -42,7 +42,7 @@ print('\nThe Number is:\n',np.argmax(predictions[0]))
 plt.title("Test number is:")
 plt.axis('off')
 
-plt.imshow(x_test[0],cmap=plt.cm.binary)
+plt.imshow(x_test[0],cmap=plt.cm.binary)#shows a test sample which is recognised as 7
 plt.show()
 
 
